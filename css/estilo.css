@@ -135,7 +135,7 @@ html{
 
 
 .futbol{
-	background-image: url("../img/futbol.jpg");
+	background-image: url("../IMG/futbol.jpg");
 	width: 100%;
 	min-height: 140px;
 	background-repeat: no-repeat;
@@ -147,7 +147,7 @@ html{
 }
 
 .musica{
-	background-image: url("../img/musica.jpg");
+	background-image: url("../IMG/musica.jpg");
 	width: 100%;
 	min-height: 140px;
 	background-repeat: no-repeat;
@@ -186,31 +186,31 @@ html{
 
 }
 .icono-sobre-mi{
-	background-image: url("../img/sobre-mi-hover.png")
+	background-image: url("../IMG/sobre-mi-hover.png")
 
 }
 .icono-estudios{
-	background-image: url("../img/educacion-hover.png")
+	background-image: url("../IMG/educacion-hover.png")
 }
 .icono-experiencia-laboral{
-	background-image: url("../img/experiencia-laboral-hover.png")
+	background-image: url("../IMG/experiencia-laboral-hover.png")
 }
 .icono-hobbies{
-	background-image: url("../img/hobbie-hover.png")
+	background-image: url("../IMG/hobbie-hover.png")
 }
 
 .item:hover .icono.icono-sobre-mi{
-	background-image: url("../img/sobre-mi.png")
+	background-image: url("../IMG/sobre-mi.png")
 
 }
 .item:hover .icono.icono-estudios{
-	background-image: url("../img/educacion.png")
+	background-image: url("../IMG/educacion.png")
 }
 .item:hover .icono.icono-experiencia-laboral{
-	background-image: url("../img/experiencia-laboral.png")
+	background-image: url("../IMG/experiencia-laboral.png")
 }
 .item:hover .icono.icono-hobbies{
-	background-image: url("../img/hobbie.png")
+	background-image: url("../IMG/hobbie.png")
 }
 .foto{
 	width: 100%;
@@ -233,7 +233,7 @@ html{
    display: inline-block;
 }
 .red.facebook{
-	background-image: url("../img/redes-facebook.png");
+	background-image: url("../IMG/redes-facebook.png");
 	background-position: 0px 0px;
 	background-size: cover;
 }
