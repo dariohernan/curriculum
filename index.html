@@ -1,178 +1,166 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title> Curriculum Vitae </title>
-	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/pixelart.css">
-	<link rel="stylesheet" href="css/juego.css">
-	<script src="js/pixelart.js"></script>
-	<script src="js/juego.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/estilo.css">
-	<link rel="stylesheet" href="css/ionicons/css/ionicons.min.css"  >
-</head>
-<body>
-<div class="contenedor">
-
-<div class="c-izquierda">
-<img src="img/dario.jpg" class="foto">
-	<nav class="menu">
-		<ul>
-			<li class="item">
-				<div class="icono icono-sobre-mi"></div>
-				<a class="link w-clearfix" href="#sobre-mi"><p class="texto-link">Sobre mi</p></a>
-			</li>
-			<li class="item">
-<div class="icono icono-estudios"></div>
-				<a class="link w-clearfix" href="#estudios"><p class="texto-link">Estudios</p></a>
-			</li>
-			<li class="item">
-			<div class="icono icono-experiencia-laboral"></div>
-				<a class="link w-clearfix" href="#experiencia-laboral"><p class="texto-link">Experiencia Laboral</p></a>
-			</li>
-			<li class="item">
-			<div class="icono icono-hobbies"></div>
-				<a class="link w-clearfix" href="#hobbies"><p class="texto-link">hobbies</p></a>
-			</li>
-		</ul>
-	</nav>
-	<div class="redes w-clearfix">
-		<a class="red facebook" href="https://www.facebook.com/dariohernan.zarzabenitez"></a>
-	</div>
-	</div>
-	
-	<div class="c-derecha">	
-	<div id="sobre-mi" class="seccion-titulo">
-		<h1 class="título-sección">sobre mi</h1>
-	</div>
-
-
-	<section class="sobre-mi w-clearfix">
-		<h1 class="nombre"> Dario Zarza</h1>
-		<h2 class="profesión">Estudiante </h2>
-		<p> Actualmente estoy cursando sexto año del colegio secundario .Soy una persona con diversos gustos e interes, tengo ganas de trabajar en un lugar donde pueda aprender y superarme día a día. Me gustaria aportar mis conocimientos así como tambien continuar aprendiendo para poder crecer como profesional.
-		</p>
-
-
-	<ul>
-		<li>
-			<div class="datos-personales">Nombre:</div> 
-			<div class="valor">Dario Zarza</div>
-		</li>
-		<li>
-			<div class="datos-personales">Edad:</div>
-			<div class="valor">20 años</div>
-		</li>
-		<li>
-		<div class="datos-personales"> Direccion:</div>
-		<div class="valor">Euskadi 4476</div>
-		</li>
-	<li>
-	<div class="datos-personales">Email:</div>
-	<div class="valor"> dariohernanldz@gmail.com</div>
-	</li>
-	<li>
-	<div class="datos-personales"> Teléfono:</div>
-	<div class="valor"> 1161928027</div>
-	</li> 
-	</ul>
-</section>
-
-<div id="estudios" class="seccion-titulo"><h1 class="título-sección">Estudios</h1>
-	</div>
-	<section class="estudios w-clearfix">
-<h6 class="escuela">Escuela Tecnica N°17 D.E 13 Brigadier General Don Cornelio Saavedra</h6>
-<p>Estoy en la especialidad de Eléctrica donde al finalizar el año me recibo de Técnico Eléctrico con Orientación a Electrónica Industrial; en esta especialidad aprendí a usar programas como Autocad(software de diseño), Twuido Suite (software para controladores lógicos programables (PLC) ),Zelio Soft(software para controladores lógicos programables) (PLC) ) </p>
-<h3>CURSOS</h3>
-<p> Aprende Programando: Curso de Programación Junior Front End</p>
-</section>
-
-<div id="experiencia-laboral" class="seccion-titulo"><h1 class="título-sección">Experiencia Laboral</h1>
-</div>
-<section class="experiencia-laboral w-clearfix">
-
-<p>  Manos Blancas S.A :Empleado dedicado a realizar tareas generales para el estampado de prendas textiles</p>
-</section>
-
-		<div id="hobbies" class="seccion-titulo">
-			<h1 class="título-sección">Hobbies</h1>
-		</div>
-	 <section class="hobbies w-clearfix">
-	 	<div class="item-hobbie">
- 			<div class="futbol"> </div>
-			<div>Fútbol</div>
-		</div>
-		<div class="item-hobbie">
- 			<div class="musica"></div> 
- 			<div>Música</div>
- 		</div>
- 	</section>
- 	
- 	
-
-
-
-
- <div id="portfolio" class="seccion-titulo">
- 	<h1 class="titulo-seccion ">Sección de juegos</h1>
- 	<h2>Rompecabezas</h2>
-    <p> JUEGO DONDE PONDRAS A PRUEBA TU MENTE</p>
-
- </div>
-
- <section>
- 	<div id="juego"></div>
- </section>
- <section id="pixelart" class="seccion-titulo">
- <h1 class="titulo-seccion">Divertite pintando</h1>
- <p>Juego donde podras dibujar o pintar lo que quieras usando tu imaginación</p>
-<div class="game">
-      <div id="container"></div>
-         <div class="actions">
-            <div id="color-pick">
-                 <div class="#3BF00E"></div>
-                 <div class="#F20A0E"></div>
-                 <div class="#E7F211"></div>
-                 <div class="#F7B80A"></div>
-                 <div class="#F70AD4"></div>
-                 <div class="#0AF7BC"></div>
-                 <div class="#000000"></div>
-                 <div class="#858531"></div>
-                 <div class="#ffffff"></div>
-                 <div class="#858531"></div>
-                 <div class="#96A3B3"></div>
-                 <div class="#C75ABE"></div>
-                 <div class="#A1283E"></div>
-                 <div class="#9FCF11"></div>
-                 <div class="#585954"></div>
-                 <div class="#8A320F"></div>
-                 <div class="#F0C5B4"></div>
-                 <div class="#26F70A"></div>
-                 <div class="#10446E"></div>
-                 <div class="#ADC7DB"></div>
-                 <div class="#F0331A"></div>
+    <head>
+        <meta charset="utf-8">
+        <title> Curriculum Vitae </title>
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/pixelart.css">
+        <link rel="stylesheet" href="css/juego.css">
+        <script src="js/pixelart.js"></script>
+        <script src="js/juego.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+        <link rel="stylesheet" href="css/ionicons/css/ionicons.min.css"  >
+    </head>
+    <body>
+        <div class="contenedor">
+            <div class="c-izquierda">
+                <img src="img/dario.jpg" class="foto">
+                <nav class="menu">
+                    <ul>
+                        <li class="item">
+                            <div class="icono icono-sobre-mi"></div>
+                            <a class="link w-clearfix" href="#sobre-mi">
+                                <p class="texto-link">Sobre mi</p>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <div class="icono icono-estudios"></div>
+                            <a class="link w-clearfix" href="#estudios">
+                                <p class="texto-link">Estudios</p>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <div class="icono icono-experiencia-laboral"></div>
+                            <a class="link w-clearfix" href="#experiencia-laboral">
+                                <p class="texto-link">Experiencia Laboral</p>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <div class="icono icono-hobbies"></div>
+                            <a class="link w-clearfix" href="#hobbies">
+                                <p class="texto-link">hobbies</p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="redes w-clearfix">
+                    <a class="red facebook" href="https://www.facebook.com/dariohernan.zarzabenitez"></a>
+                </div>
             </div>
-      
-   <div class="acciones__botones">
-         <div class="grilla">
-             <p>Tamaño</p>
-               <input type="number" name="resize" id="resize" value=""/>
-               <button  id="sizeit"> <span class="ion-android-arrow-forward"></span></button>
+            <div class="c-derecha">
+                <div id="sobre-mi" class="seccion-titulo">
+                    <h1 class="título-sección">sobre mi</h1>
+                </div>
+                <section class="sobre-mi w-clearfix">
+                    <h1 class="nombre"> Dario Zarza</h1>
+                    <h2 class="profesión">Estudiante </h2>
+                    <p> Actualmente estoy cursando sexto año del colegio secundario .Soy una persona con diversos gustos e interes, tengo ganas de trabajar en un lugar donde pueda aprender y superarme día a día. Me gustaria aportar mis conocimientos así como tambien continuar aprendiendo para poder crecer como profesional.
+                    </p>
+                    <ul>
+                        <li>
+                            <div class="datos-personales">Nombre:</div>
+                            <div class="valor">Dario Zarza</div>
+                        </li>
+                        <li>
+                            <div class="datos-personales">Edad:</div>
+                            <div class="valor">20 años</div>
+                        </li>
+                        <li>
+                            <div class="datos-personales"> Direccion:</div>
+                            <div class="valor">Euskadi 4476</div>
+                        </li>
+                        <li>
+                            <div class="datos-personales">Email:</div>
+                            <div class="valor"> dariohernanldz@gmail.com</div>
+                        </li>
+                        <li>
+                            <div class="datos-personales"> Teléfono:</div>
+                            <div class="valor"> 1161928027</div>
+                        </li>
+                    </ul>
+                </section>
+                <div id="estudios" class="seccion-titulo">
+                    <h1 class="título-sección">Estudios</h1>
+                </div>
+                <section class="estudios w-clearfix">
+                    <h6 class="escuela">Escuela Tecnica N°17 D.E 13 Brigadier General Don Cornelio Saavedra</h6>
+                    <p>Estoy en la especialidad de Eléctrica donde al finalizar el año me recibo de Técnico Eléctrico con Orientación a Electrónica Industrial; en esta especialidad aprendí a usar programas como Autocad(software de diseño), Twuido Suite (software para controladores lógicos programables (PLC) ),Zelio Soft(software para controladores lógicos programables) (PLC) ) </p>
+                    <h3>CURSOS</h3>
+                    <p> Aprende Programando: Curso de Programación Junior Front End</p>
+                </section>
+                <div id="experiencia-laboral" class="seccion-titulo">
+                    <h1 class="título-sección">Experiencia Laboral</h1>
+                </div>
+                <section class="experiencia-laboral w-clearfix">
+                    <p>  Manos Blancas S.A :Empleado dedicado a realizar tareas generales para el estampado de prendas textiles</p>
+                </section>
+                <div id="hobbies" class="seccion-titulo">
+                    <h1 class="título-sección">Hobbies</h1>
+                </div>
+                <section class="hobbies w-clearfix">
+                    <div class="item-hobbie">
+                        <div class="futbol"> </div>
+                        <div>Fútbol</div>
+                    </div>
+                    <div class="item-hobbie">
+                        <div class="musica"></div>
+                        <div>Música</div>
+                    </div>
+                </section>
+                <div class="seccion-titulo">
+                    <h1 class="titulo-seccion ">Sección de juegos</h1>
+                    <h2>Rompecabezas</h2>
+                    <p> JUEGO DONDE PONDRAS A PRUEBA TU MENTE</p>
+                </div>
+                <section class="arcade">
+                    <div id="juego"></div>
+                </section>
+                <div class="seccion-titulo">
+                    <h1 class="titulo-seccion">Divertite pintando</h1>
+                    <p>Juego donde podras dibujar o pintar lo que quieras usando tu imaginación</p>
+                </div>
+                <section class="pixelart">
+                    <div class="game">
+                        <div id="container"></div>
+                        <div class="actions">
+                            <div id="color-pick">
+                                <div class="#3BF00E"></div>
+                                <div class="#F20A0E"></div>
+                                <div class="#E7F211"></div>
+                                <div class="#F7B80A"></div>
+                                <div class="#F70AD4"></div>
+                                <div class="#0AF7BC"></div>
+                                <div class="#000000"></div>
+                                <div class="#858531"></div>
+                                <div class="#ffffff"></div>
+                                <div class="#858531"></div>
+                                <div class="#96A3B3"></div>
+                                <div class="#C75ABE"></div>
+                                <div class="#A1283E"></div>
+                                <div class="#9FCF11"></div>
+                                <div class="#585954"></div>
+                                <div class="#8A320F"></div>
+                                <div class="#F0C5B4"></div>
+                                <div class="#26F70A"></div>
+                                <div class="#10446E"></div>
+                                <div class="#ADC7DB"></div>
+                                <div class="#F0331A"></div>
+                            </div>
+                            <div class="acciones__botones">
+                                <div class="grilla">
+                                    <p>Tamaño</p>
+                                    <input type="number" name="resize" id="resize" value=""/>
+                                    <button  id="sizeit"> <span class="ion-android-arrow-forward"></span></button>
+                                </div>
+                                <button id="grab-it"  class="btn"><span class="ion-android-arrow-forward"></span></button>
+                                <button id="reset" class="btn"><span class="ion-trash-a"></span></button>
+                                <button id="toggle-border" class="btn"><span class="ion-ios-grid-view-outline"></span></button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
         </div>
-
-               <button id="grab-it"  class="btn"><span class="ion-android-arrow-forward"></span></button>
-               <button id="reset" class="btn"><span class="ion-trash-a"></span></button>
-               <button id="toggle-border" class="btn"><span class="ion-ios-grid-view-outline"></span></button>
-                     </div>
-      </div>
-      </div>
- 
- 	
- </section>
-
-	</div>
-</div>		
-</body>
-
+    </body>
 </html>
