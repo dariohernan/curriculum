@@ -1,2 +1,2 @@
 
-Curriculum Vitae
+[Curriculum Vitae] (https://dariohernan.github.io/curriculum)
