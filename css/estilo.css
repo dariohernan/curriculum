@@ -63,8 +63,14 @@ width: 63%;
 .sobre-mi,
 .estudios,
 .experiencia-laboral,
-.hobbies{
+.hobbies,
+.arcade,
+.pixelart{
 	padding: 30px 40px;
+}
+
+.pixelart{
+	margin-bottom: 100px;
 }
 
 .link{
